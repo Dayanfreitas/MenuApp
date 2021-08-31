@@ -1,0 +1,14 @@
+version: '2'
+services:
+  app:
+    build: .
+    container_name: menu_app
+    ports:
+      - 40945:40945
+    volumes: 
+      - .:/home/node/app
+    tty: true
+    command: "ng serve --host 0.0.0.0 --port 40945 --open"
+
+
+   

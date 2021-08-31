@@ -1,12 +1,13 @@
 Teste Prático	
-Montar um pequeno sistema que cadastre um cardápio, este deve ser um modelo que não dependa de backend.
+Montar um pequeno sistema que cadastre um cardápio, este deve ser um modelo que não dependa de backend.  
 
-Escopo	
+Escopo  	
 Manter todas as informações de estado da aplicação em memória mesmo
     login usuário
-    crud usuários (nome, email)
-    crud categorias (nome)
-    crud produtos (nome, categoria)
+    * crud usuários (nome, email)
+    * crud categorias (nome)
+    * crud produtos (nome, categoria)
 
 Ref: https://ng.ant.design/docs/introduce/en
 
+ng g ng-zorro-antd:layout-top menu
